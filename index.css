@@ -1,0 +1,108 @@
+body * {
+    box-sizing: border-box;
+  }
+body {
+    font-family: Sans-Serif;
+    font-size: 1.2em;
+    color: green;
+    /* background-color: rgb(97, 95, 95); */
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  h4 {
+    margin: 1rem 0;
+  }
+.search-form{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.css-search{
+    min-width: 325px;
+    padding: .2em .5em;
+    margin: .25em 0;
+}
+#find-btn{
+    border:3px solid green;
+    background-color: green;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+input[type=text]{
+    border:1px solid darkgrey;
+    outline-color: 3px solid green;
+    font-size: 1rem;
+}
+#search-label{
+    font-weight: bold;
+}
+  .hidden {
+    display: none;
+    visibility: hidden;
+  }
+.error {
+    color: red;
+}
+.results {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-shadow:0px 3px 5px 1px lightgray;
+    padding: 15px;
+    font-size: 1rem;
+    
+}
+.flex-container {
+    max-width: 42rem;
+    min-width: 325px;
+   
+}
+.user {
+    color: blue;
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+  }
+ul{
+    margin-top: -10px;
+}
+.result-item {
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: .5rem;
+  border-radius: 4px;
+    }
+
+  
+  
+  
+
+/*   
+  .text {
+    color: lightgray;
+    font-size: 18px;
+     font-family: 'Open Sans', sans-serif;
+    
+    text-align: center;
+  } */
+  
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
